@@ -1,25 +1,62 @@
-import React from "react";
+import React, { useState } from "react";
+import {
+  HomeTwoTone,
+  ToolTwoTone,
+  BulbTwoTone,
+  SmileTwoTone,
+  RocketTwoTone,
+} from "@ant-design/icons";
+import type { MenuProps } from "antd";
 import { Menu } from "antd";
 
-const Header = () => {
+import "./index.css";
+
+const HeaderComponent = () => {
+  const items: MenuProps["items"] = [
+    {
+      label: "",
+      key: "home",
+      icon: <HomeTwoTone twoToneColor="#eb2f96" />,
+    },
+    {
+      label: "Proyectos",
+      key: "projects",
+      icon: <ToolTwoTone twoToneColor="#eb2f96" />,
+    },
+    {
+      label: "Conocimientos",
+      key: "knowledges",
+      icon: <BulbTwoTone twoToneColor="#eb2f96" />,
+    },
+    {
+      label: "Sobre mi",
+      key: "aboutme",
+      icon: <SmileTwoTone twoToneColor="#eb2f96" />,
+    },
+    {
+      label: "Contacto",
+      key: "contact",
+      icon: <RocketTwoTone twoToneColor="#eb2f96" />,
+    },
+  ];
+
+  const [current, setCurrent] = useState("home");
+
+  const onClick: MenuProps["onClick"] = (e) => {
+    setCurrent(e.key);
+  };
+
   return (
     <>
-      <div className="logo" />
       <Menu
-        // theme="dark"
-        // className="header-"
+        onClick={onClick}
+        selectedKeys={[current]}
         mode="horizontal"
-        defaultSelectedKeys={["2"]}
-        items={new Array(15).fill(null).map((_, index) => {
-          const key = index + 1;
-          return {
-            key,
-            label: `nav ${key}`,
-          };
-        })}
+        items={items}
+        style={{ background: "red" }}
       />
     </>
   );
 };
 
-export default Header;
+export default HeaderComponent;

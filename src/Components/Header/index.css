@@ -1,0 +1,24 @@
+.ant-menu-overflow {
+  justify-content: flex-end;
+}
+
+
+.ant-menu-title-content {
+  color: #fff;
+}
+
+.ant-menu-light {
+  background: pink !important;
+}
+
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected {
+  color: #fff;
+}
+
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected::after {
+  border-bottom-color: #eb2f96;
+}
+
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item:hover::after {
+  border-bottom-color: #eb2f96;
+}
