@@ -1,22 +1,26 @@
 import React from "react";
 import { Card } from "antd";
 
+import "./styles.scss";
+
 const { Meta } = Card;
 
-const CardProject = () => {
+interface CardProjectProps {
+  alt: string;
+  descriptionCard: string;
+  img: string;
+  titleCard: string;
+}
+
+const CardProject = (props: CardProjectProps) => {
   return (
     <>
       <Card
         hoverable
         style={{ width: 240 }}
-        cover={
-          <img
-            alt="example"
-            src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-          />
-        }
+        cover={<img alt={props.alt} src={props.img} />}
       >
-        <Meta title="Europe Street beat" description="www.instagram.com" />
+        <Meta title={props.titleCard} description={props.descriptionCard} />
       </Card>
     </>
   );
