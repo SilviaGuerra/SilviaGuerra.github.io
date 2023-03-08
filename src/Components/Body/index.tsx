@@ -1,11 +1,16 @@
 import React from "react";
-import { Button } from "antd";
+import { Button, Col, Row } from "antd";
 
 import TitleSection from "./TitleSection";
 import Github from "../assets/img/github(1).svg";
 import LinkedIn from "../assets/img/linkedin-cafe.svg";
 import Robot from "../assets/img/robot.svg";
-import "./index.scss";
+import Project1 from "../assets/img/sobremi.svg";
+import Star from "../assets/img/star.svg";
+import AboutMe from "../assets/img/sobremi.svg";
+import Contact from "../assets/img/contacto-rosa.svg";
+
+import "./styles.scss";
 import CardProject from "./CardsProjects";
 
 const Body = () => {
@@ -35,7 +40,39 @@ const Body = () => {
 
       {/** Proyectos **/}
       <TitleSection img={Robot} alt="Robot" titleSection="Proyectos" />
-      <CardProject />
+      <Row>
+        <Col sm={24} md={8}>
+          <CardProject
+            alt="project1"
+            img={Project1}
+            titleCard="Data Lab"
+            descriptionCard="Freelance"
+          />
+        </Col>
+        <Col sm={24} md={8}>
+          <CardProject
+            alt=""
+            img={Project1}
+            titleCard="Anay"
+            descriptionCard="Herramienta interna de Yana"
+          />
+        </Col>
+        <Col sm={24} md={8}>
+          <CardProject
+            alt=""
+            img={Project1}
+            titleCard="Davivienda"
+            descriptionCard="Sitio para pagos"
+          />
+        </Col>
+      </Row>
+
+      {/** Conocimientos **/}
+      <TitleSection img={Star} alt="Star" titleSection="Conocimientos" />
+      {/** Sobre mi **/}
+      <TitleSection img={AboutMe} alt="About me" titleSection="Sobre mi" />
+      {/** Contacto **/}
+      <TitleSection img={Contact} alt="Contact" titleSection="Contacto" />
     </>
   );
 };

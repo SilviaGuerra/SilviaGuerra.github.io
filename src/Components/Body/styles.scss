@@ -1,0 +1,21 @@
+.body-foldImage {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../assets/img/tumblr_girasoles_500.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: inherit;
+}
+
+.fold-link {
+  padding: 2%;
+  width: 5%;
+}
+
+/** Styles Ant Design **/
+.ant-btn-primary {
+  background-color: pink !important;
+}

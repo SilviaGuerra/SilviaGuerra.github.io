@@ -1,0 +1,19 @@
+.titleSection {
+  &-img {
+    width: 5%;
+    padding: 4% 2% 0 2%;
+  }
+  &-mainTitle {
+    display: inline;
+    color: #ffc0cb;
+    padding-right: 1%;
+  }
+}
+
+hr {
+  display: inline-block;
+  width: 50px;
+  border: none;
+  height: 1px;
+  background: #ffc0cb;
+}
