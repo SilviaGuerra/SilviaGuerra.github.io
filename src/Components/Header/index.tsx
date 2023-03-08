@@ -14,7 +14,7 @@ import "./index.css";
 const HeaderComponent = () => {
   const items: MenuProps["items"] = [
     {
-      label: "",
+      // label: "",
       key: "home",
       icon: <HomeTwoTone twoToneColor="#eb2f96" />,
     },
