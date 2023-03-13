@@ -41,7 +41,7 @@ const Body = () => {
       {/** Proyectos **/}
       <TitleSection img={Robot} alt="Robot" titleSection="Proyectos" />
       <Row>
-        <Col sm={24} md={8}>
+        <Col sm={24} md={6}>
           <CardProject
             alt="project1"
             img={Project1}
@@ -49,7 +49,7 @@ const Body = () => {
             descriptionCard="Freelance"
           />
         </Col>
-        <Col sm={24} md={8}>
+        <Col sm={24} md={6}>
           <CardProject
             alt=""
             img={Project1}
@@ -57,11 +57,19 @@ const Body = () => {
             descriptionCard="Herramienta interna de Yana"
           />
         </Col>
-        <Col sm={24} md={8}>
+        <Col sm={24} md={6}>
           <CardProject
             alt=""
             img={Project1}
             titleCard="Davivienda"
+            descriptionCard="Sitio para pagos"
+          />
+        </Col>
+        <Col sm={24} md={6}>
+          <CardProject
+            alt=""
+            img={Project1}
+            titleCard="CityParking"
             descriptionCard="Sitio para pagos"
           />
         </Col>

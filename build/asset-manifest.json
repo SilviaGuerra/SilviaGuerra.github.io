@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a0ad375f.css",
+    "main.js": "/static/js/main.33226051.js",
+    "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
+    "static/media/tumblr_girasoles_500.jpg": "/static/media/tumblr_girasoles_500.6f31346456b514369932.jpg",
+    "static/media/github(1).svg": "/static/media/github(1).bd0567cfa0d554a1fcd7524162d4b665.svg",
+    "static/media/robot.svg": "/static/media/robot.2cc399013a2ab0f838c4d3991154daa3.svg",
+    "static/media/contacto-rosa.svg": "/static/media/contacto-rosa.1457cc65929c10ccc5b87998e93cdc08.svg",
+    "static/media/sobremi.svg": "/static/media/sobremi.da81dbbc3abd1a375be7ef513f972cce.svg",
+    "static/media/linkedin-cafe.svg": "/static/media/linkedin-cafe.7210cf6d530b603f97e8e28fc2c323a6.svg",
+    "static/media/star.svg": "/static/media/star.947cb42150401f20e1e48bb0dd942e52.svg",
+    "index.html": "/index.html",
+    "main.a0ad375f.css.map": "/static/css/main.a0ad375f.css.map",
+    "main.33226051.js.map": "/static/js/main.33226051.js.map",
+    "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0ad375f.css",
+    "static/js/main.33226051.js"
+  ]
+}
