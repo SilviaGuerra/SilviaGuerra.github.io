@@ -22,6 +22,15 @@
   }
 }
 
+.contact {
+  &-container {
+    width: 100%;
+    height: 100px;
+    background-color: #ffc0cb;
+    margin-top: 10px;
+  }
+}
+
 /** Styles Ant Design **/
 .ant-btn-primary {
   background-color: pink !important;

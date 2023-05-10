@@ -2,7 +2,6 @@ import React from "react";
 import { Button, Col, Row } from "antd";
 
 import TitleSection from "./TitleSection";
-// import pdf from "../assets/SilviaGuerra-es-en.pdf";
 import Github from "../assets/img/github(1).svg";
 import LinkedIn from "../assets/img/linkedin-cafe.svg";
 import Robot from "../assets/img/robot.svg";
@@ -26,6 +25,7 @@ import Window from "../assets/img/window.svg";
 import Rocket from "../assets/img/toy-rocket.svg";
 import AboutMe from "../assets/img/sobremi.svg";
 import Contact from "../assets/img/contacto-rosa.svg";
+import Mail from "../assets/img/mail.svg";
 
 import "./styles.scss";
 import CardProject from "./CardsProjects";
@@ -34,7 +34,7 @@ const Body = () => {
   return (
     <>
       <section className="body-foldImage">
-        <h1>Silvia Guerra</h1>
+        <h1 className="">Silvia Guerra</h1>
         <h5>Desarrolladora Front-End</h5>
         <Button type="primary">
           <a
@@ -207,6 +207,34 @@ const Body = () => {
 
       {/** Contacto **/}
       <TitleSection img={Contact} alt="Contact" titleSection="Contacto" />
+      <section className="contact-container">
+        <Row>
+          <Col sm={24} md={12}>
+            <img src={Mail} alt="mail" width="20" />
+            <span className="link-amarillo">silvia.guerrahdz@gmail.com</span>
+          </Col>
+          <Col sm={24} md={12}>
+            <p>
+              <a
+                href="https://github.com/SilviaGuerra/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHib
+              </a>
+            </p>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/silvia-guerra-65249a130/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
+            </p>
+          </Col>
+        </Row>
+      </section>
     </>
   );
 };
