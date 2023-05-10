@@ -144,39 +144,55 @@ const Body = () => {
             Buscadora de conocimiento nuevo y experiencias.
           </p>
         </Col>
-        <Row>
-          <h3>Me gusta:</h3>
-        </Row>
-        <Row>
-          <Col sm={24} md={12}>
+      </Row>
+      <h3>Me gusta:</h3>
+      <Row>
+        <Col sm={24} md={12}>
+          <a
+            href="https://github.com/SilviaGuerra/"
+            target="_blank"
+            rel="nooppener noreferrer"
+          >
             <CardProject
               alt="Codear"
               img={[Codear]}
               titleCard="Codear"
               descriptionCard="Me encanta hacer código porque es lo más cercano a tener poderes, porque todo lo que imagino lo puedo convertir en realidad."
             />
-          </Col>
-          <Col sm={24} md={12}>
+          </a>
+        </Col>
+        <Col sm={24} md={12}>
+          <a
+            href="https://www.youtube.com/channel/UCkgO9w5Aqh8eQv-AT23L8Ww"
+            target="_blank"
+            rel="nooppener noreferrer"
+          >
             <CardProject
               alt="Cantar"
               img={[Cantar]}
               titleCard="Cantar"
               descriptionCard="Formo parte del coro Ars Iovialis de la Facultad de Ingeniería (UNAM) desde el 2013. 
-              Nos hemos presentado en la sala Nezahuacoyotl, el Auditorio Nacional, 
+              Nos hemos presentado en la sala Nezahuacóyotl, el Auditorio Nacional
               y Bellas Artes con la Orquesta Sinfónica de Minería interpretando obras como Carmina Burana,
-              la 9a sinfonía de Beethoven, Stabat Mater de Dvorak, entre otras.hffh"
+              la 9a sinfonía de Beethoven, Stabat Mater de Dvorak, entre otras."
             />
-          </Col>
-        </Row>
+          </a>
+        </Col>
       </Row>
       <Row>
         <Col sm={24} md={12}>
-          <CardProject
-            alt="Escibir"
-            img={[Escribir]}
-            titleCard="Escribir"
-            descriptionCard="Escribo como un pasatiempo para tener una manera de desahogarme."
-          />
+          <a
+            href="https://voyadefraudar.blogspot.com/"
+            target="_blank"
+            rel="nooppener noreferrer"
+          >
+            <CardProject
+              alt="Escibir"
+              img={[Escribir]}
+              titleCard="Escribir"
+              descriptionCard="Escribo como un pasatiempo para tener una manera de desahogarme."
+            />
+          </a>
         </Col>
         <Col sm={24} md={12}>
           <CardProject

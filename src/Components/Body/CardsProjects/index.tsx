@@ -19,7 +19,7 @@ const contentStyle: React.CSSProperties = {
   color: "#fff",
   lineHeight: "160px",
   textAlign: "center",
-  background: "#364d79",
+  background: "#fff",
 };
 
 const imgCarousel = (props: any) => {
@@ -29,7 +29,12 @@ const imgCarousel = (props: any) => {
         return (
           <div>
             <h3 style={contentStyle}>
-              <img style={contentStyle} alt={props.alt} src={element} />
+              <img
+                style={contentStyle}
+                alt={props.alt}
+                src={element}
+                width={"100%"}
+              />
             </h3>
           </div>
         );
@@ -41,7 +46,7 @@ const imgCarousel = (props: any) => {
 const CardProject = (props: CardProjectProps) => {
   return (
     <section className="cardProject-container">
-      <Card hoverable style={{ width: 240 }} cover={imgCarousel(props)}>
+      <Card hoverable style={{ width: "72%" }} cover={imgCarousel(props)}>
         <a href={props.link} target="_blank" rel="noopener noreferrer">
           <Meta
             title={props.titleCard}
