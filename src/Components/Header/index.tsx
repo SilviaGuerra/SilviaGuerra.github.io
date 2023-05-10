@@ -44,6 +44,7 @@ const HeaderComponent = () => {
 
   const onClick: MenuProps["onClick"] = (e) => {
     setCurrent(e.key);
+    console.log(e);
   };
 
   return (
