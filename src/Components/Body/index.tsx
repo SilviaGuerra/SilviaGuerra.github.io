@@ -15,6 +15,10 @@ import Davivienda1 from "../assets/img/Davivienda1.png";
 import Davivienda2 from "../assets/img/Davivienda2.png";
 import Cityparking from "../assets/img/Cityparking.png";
 import SilviaG from "../assets/img/SilviaG.jpg";
+import Codear from "../assets/img/sai-kiran-anagani.jpg";
+import Cantar from "../assets/img/coro.jpg";
+import Escribir from "../assets/img/aaron-burden.jpg";
+import Leer from "../assets/img/aliis-sinisalu.jpg";
 
 import Star from "../assets/img/star.svg";
 import Puzzle from "../assets/img/puzzle-piece.svg";
@@ -139,6 +143,49 @@ const Body = () => {
             México. Suelo ser un poco dispersa y curiosa. Me gusta crear cosas.
             Buscadora de conocimiento nuevo y experiencias.
           </p>
+        </Col>
+        <Row>
+          <h3>Me gusta:</h3>
+        </Row>
+        <Row>
+          <Col sm={24} md={12}>
+            <CardProject
+              alt="Codear"
+              img={[Codear]}
+              titleCard="Codear"
+              descriptionCard="Me encanta hacer código porque es lo más cercano a tener poderes, porque todo lo que imagino lo puedo convertir en realidad."
+            />
+          </Col>
+          <Col sm={24} md={12}>
+            <CardProject
+              alt="Cantar"
+              img={[Cantar]}
+              titleCard="Cantar"
+              descriptionCard="Formo parte del coro Ars Iovialis de la Facultad de Ingeniería (UNAM) desde el 2013. 
+              Nos hemos presentado en la sala Nezahuacoyotl, el Auditorio Nacional, 
+              y Bellas Artes con la Orquesta Sinfónica de Minería interpretando obras como Carmina Burana,
+              la 9a sinfonía de Beethoven, Stabat Mater de Dvorak, entre otras."
+            />
+          </Col>
+        </Row>
+      </Row>
+      <Row>
+        <Col sm={24} md={12}>
+          <CardProject
+            alt="Escibir"
+            img={[Escribir]}
+            titleCard="Escribir"
+            descriptionCard="Escribo como un pasatiempo para tener una manera de desahogarme."
+          />
+        </Col>
+        <Col sm={24} md={12}>
+          <CardProject
+            alt="Leer"
+            img={[Leer]}
+            titleCard="Leer"
+            descriptionCard="Amo leer porque es la forma más fácil de escapar de la realidad.
+            Mi libro favorito (por ahora) es: la elegancia del erizo - Mariel Barbery"
+          />
         </Col>
       </Row>
 

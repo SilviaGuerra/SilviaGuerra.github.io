@@ -1,22 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0ad375f.css",
-    "main.js": "/static/js/main.33226051.js",
+    "main.css": "/static/css/main.8744161e.css",
+    "main.js": "/static/js/main.b42413a4.js",
     "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
+    "static/media/aliis-sinisalu.jpg": "/static/media/aliis-sinisalu.25e8701524005f4cde42.jpg",
+    "static/media/sai-kiran-anagani.jpg": "/static/media/sai-kiran-anagani.7fbac660f337891c80b9.jpg",
+    "static/media/aaron-burden.jpg": "/static/media/aaron-burden.589e01dcecc5d936d61e.jpg",
+    "static/media/Davivienda1.png": "/static/media/Davivienda1.84996264427cc8168ebe.png",
+    "static/media/Datalab-2.png": "/static/media/Datalab-2.5ba88b90705f4dcacfe5.png",
+    "static/media/SilviaG.jpg": "/static/media/SilviaG.505f8aa57ec85303453c.jpg",
+    "static/media/Davivienda2.png": "/static/media/Davivienda2.e235c69165f1ac48f927.png",
+    "static/media/Anay-1.jpg": "/static/media/Anay-1.e46d451b237492f8f71c.jpg",
+    "static/media/Datalab.png": "/static/media/Datalab.0f13f884ea02ff434827.png",
+    "static/media/coro.jpg": "/static/media/coro.6d070ad8f1e77f0e6d29.jpg",
+    "static/media/Anay-2.jpg": "/static/media/Anay-2.04a901c0717059233a78.jpg",
+    "static/media/Anay-3.jpg": "/static/media/Anay-3.c3c50e66db0109b2e4b5.jpg",
+    "static/media/Cityparking.png": "/static/media/Cityparking.99fb2db4351daf50da77.png",
     "static/media/tumblr_girasoles_500.jpg": "/static/media/tumblr_girasoles_500.6f31346456b514369932.jpg",
     "static/media/github(1).svg": "/static/media/github(1).bd0567cfa0d554a1fcd7524162d4b665.svg",
+    "static/media/puzzle-piece.svg": "/static/media/puzzle-piece.bdbb59a537145d130cc494c6bfb17c39.svg",
+    "static/media/toy-rocket.svg": "/static/media/toy-rocket.78df161487c86fb550ef706dfdef7041.svg",
     "static/media/robot.svg": "/static/media/robot.2cc399013a2ab0f838c4d3991154daa3.svg",
     "static/media/contacto-rosa.svg": "/static/media/contacto-rosa.1457cc65929c10ccc5b87998e93cdc08.svg",
     "static/media/sobremi.svg": "/static/media/sobremi.da81dbbc3abd1a375be7ef513f972cce.svg",
     "static/media/linkedin-cafe.svg": "/static/media/linkedin-cafe.7210cf6d530b603f97e8e28fc2c323a6.svg",
+    "static/media/window.svg": "/static/media/window.84970e758675fab8e4d8e259b7736fd1.svg",
     "static/media/star.svg": "/static/media/star.947cb42150401f20e1e48bb0dd942e52.svg",
     "index.html": "/index.html",
-    "main.a0ad375f.css.map": "/static/css/main.a0ad375f.css.map",
-    "main.33226051.js.map": "/static/js/main.33226051.js.map",
+    "main.8744161e.css.map": "/static/css/main.8744161e.css.map",
+    "main.b42413a4.js.map": "/static/js/main.b42413a4.js.map",
     "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0ad375f.css",
-    "static/js/main.33226051.js"
+    "static/css/main.8744161e.css",
+    "static/js/main.b42413a4.js"
   ]
 }
