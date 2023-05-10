@@ -164,7 +164,7 @@ const Body = () => {
               descriptionCard="Formo parte del coro Ars Iovialis de la Facultad de Ingeniería (UNAM) desde el 2013. 
               Nos hemos presentado en la sala Nezahuacoyotl, el Auditorio Nacional, 
               y Bellas Artes con la Orquesta Sinfónica de Minería interpretando obras como Carmina Burana,
-              la 9a sinfonía de Beethoven, Stabat Mater de Dvorak, entre otras."
+              la 9a sinfonía de Beethoven, Stabat Mater de Dvorak, entre otras.hffh"
             />
           </Col>
         </Row>
