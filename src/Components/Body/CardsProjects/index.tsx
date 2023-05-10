@@ -43,7 +43,11 @@ const CardProject = (props: CardProjectProps) => {
     <section className="cardProject-container">
       <Card hoverable style={{ width: 240 }} cover={imgCarousel(props)}>
         <a href={props.link} target="_blank" rel="noopener noreferrer">
-          <Meta title={props.titleCard} description={props.descriptionCard} />
+          <Meta
+            title={props.titleCard}
+            description={props.descriptionCard}
+            className="cardProject-description"
+          />
         </a>
       </Card>
     </section>

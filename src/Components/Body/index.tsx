@@ -6,8 +6,16 @@ import TitleSection from "./TitleSection";
 import Github from "../assets/img/github(1).svg";
 import LinkedIn from "../assets/img/linkedin-cafe.svg";
 import Robot from "../assets/img/robot.svg";
-import Project1 from "../assets/img/Datalab.png";
-import Project2 from "../assets/img/Datalab.png";
+import Datalab1 from "../assets/img/Datalab.png";
+import Datalab2 from "../assets/img/Datalab-2.png";
+import Anay1 from "../assets/img/Anay-1.jpg";
+import Anay2 from "../assets/img/Anay-2.jpg";
+import Anay3 from "../assets/img/Anay-3.jpg";
+import Davivienda1 from "../assets/img/Davivienda1.png";
+import Davivienda2 from "../assets/img/Davivienda2.png";
+import Cityparking from "../assets/img/Cityparking.png";
+import SilviaG from "../assets/img/SilviaG.jpg";
+
 import Star from "../assets/img/star.svg";
 import Puzzle from "../assets/img/puzzle-piece.svg";
 import Window from "../assets/img/window.svg";
@@ -58,7 +66,7 @@ const Body = () => {
         <Col sm={24} md={6}>
           <CardProject
             alt="Data lab imágenes"
-            img={[Project1, Project2]}
+            img={[Datalab1, Datalab2]}
             titleCard="Data Lab"
             descriptionCard="Es un freelance que realicé en 8 días, consiste en un sitio web de la empresa para describir lo que hacen"
             link="https://www.datalabmx.com/"
@@ -67,7 +75,7 @@ const Body = () => {
         <Col sm={24} md={6}>
           <CardProject
             alt="Anay imágenes"
-            img={[Project1, Project2]}
+            img={[Anay1, Anay2, Anay3]}
             titleCard="Anay"
             descriptionCard="Herramienta interna de Yana que se usa para crear y simular una conversación del bot. Importar y exportar las conversaciones creadas"
           />
@@ -80,7 +88,7 @@ const Body = () => {
           >
             <CardProject
               alt="Davivienda"
-              img={[Project1, Project2]}
+              img={[Davivienda1, Davivienda2]}
               titleCard="Davivienda"
               descriptionCard="Portal para pagos que ayuda al banco Davivienda (Colombia)"
             />
@@ -93,8 +101,8 @@ const Body = () => {
             rel="nooppener noreferrer"
           >
             <CardProject
-              alt=""
-              img={[Project1, Project2]}
+              alt="Cityparking formulario imagen muestra"
+              img={[Cityparking]}
               titleCard="CityParking"
               descriptionCard="Sitio para el pago de servicio de servicios urbanos en Colombia https://city-parking.com/"
             />
@@ -121,6 +129,19 @@ const Body = () => {
 
       {/** Sobre mi **/}
       <TitleSection img={AboutMe} alt="About me" titleSection="Sobre mi" />
+      <Row className="projects-container">
+        <Col sm={24} md={12}>
+          <img src={SilviaG} alt="Foto Silvia Guerra" className="aboutMe-img" />
+        </Col>
+        <Col sm={24} md={12}>
+          <p>
+            Me llamo Silvia, soy desarrolladora front-end por Laboratoria
+            México. Suelo ser un poco dispersa y curiosa. Me gusta crear cosas.
+            Buscadora de conocimiento nuevo y experiencias.
+          </p>
+        </Col>
+      </Row>
+
       {/** Contacto **/}
       <TitleSection img={Contact} alt="Contact" titleSection="Contacto" />
     </>
