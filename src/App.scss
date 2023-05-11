@@ -1,0 +1,19 @@
+@import "./variables.scss";
+
+.App {
+  text-align: center;
+  font-family: $font-primary;
+}
+
+* {
+  font-family: $font-primary;
+  font-size: 16px;
+  /* color: #f6e2b3; */
+  color: $color-texto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+

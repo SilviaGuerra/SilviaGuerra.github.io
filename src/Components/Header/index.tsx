@@ -12,6 +12,7 @@ import { Menu } from "antd";
 import "./index.css";
 
 const HeaderComponent = () => {
+  // const prueba = useRef(null);
   const items: MenuProps["items"] = [
     {
       // label: "",
@@ -20,6 +21,7 @@ const HeaderComponent = () => {
     },
     {
       label: "Proyectos",
+      // label: <a href="#proyectos">Proyectos</a>,
       key: "projects",
       icon: <ToolTwoTone twoToneColor="#eb2f96" />,
     },
@@ -44,7 +46,7 @@ const HeaderComponent = () => {
 
   const onClick: MenuProps["onClick"] = (e) => {
     setCurrent(e.key);
-    console.log(e);
+    console.log(e, "Holaa");
   };
 
   return (

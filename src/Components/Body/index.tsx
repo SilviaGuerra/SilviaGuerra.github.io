@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Row } from "antd";
-
+// import Header from "../Header";
 import TitleSection from "./TitleSection";
 import Github from "../assets/img/github(1).svg";
 import LinkedIn from "../assets/img/linkedin-cafe.svg";
@@ -33,6 +33,7 @@ import CardProject from "./CardsProjects";
 const Body = () => {
   return (
     <>
+      {/* <Header /> */}
       <section className="body-foldImage">
         <h1 className="">Silvia Guerra</h1>
         <h5>Desarrolladora Front-End</h5>
@@ -65,7 +66,12 @@ const Body = () => {
       </section>
 
       {/** Proyectos **/}
-      <TitleSection img={Robot} alt="Robot" titleSection="Proyectos" />
+      <TitleSection
+        img={Robot}
+        alt="Robot"
+        titleSection="Proyectos"
+        id="proyectos"
+      />
       <Row className="projects-container">
         <Col sm={24} md={6}>
           <CardProject
@@ -115,7 +121,12 @@ const Body = () => {
       </Row>
 
       {/** Conocimientos **/}
-      <TitleSection img={Star} alt="Star" titleSection="Conocimientos" />
+      <TitleSection
+        img={Star}
+        alt="Star"
+        titleSection="Conocimientos"
+        id="conocimientos"
+      />
       <Row className="projects-container">
         <Col sm={24} md={8}>
           <img src={Window} alt="Creación de páginas" width={"30%"} />
@@ -132,7 +143,12 @@ const Body = () => {
       </Row>
 
       {/** Sobre mi **/}
-      <TitleSection img={AboutMe} alt="About me" titleSection="Sobre mi" />
+      <TitleSection
+        img={AboutMe}
+        alt="About me"
+        titleSection="Sobre mi"
+        id="sobreMi"
+      />
       <Row className="projects-container">
         <Col sm={24} md={12}>
           <img src={SilviaG} alt="Foto Silvia Guerra" className="aboutMe-img" />
@@ -206,7 +222,12 @@ const Body = () => {
       </Row>
 
       {/** Contacto **/}
-      <TitleSection img={Contact} alt="Contact" titleSection="Contacto" />
+      <TitleSection
+        img={Contact}
+        alt="Contact"
+        titleSection="Contacto"
+        id="contacto"
+      />
       <section className="contact-container">
         <Row>
           <Col sm={24} md={12}>

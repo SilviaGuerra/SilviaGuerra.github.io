@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.scss";
 
 interface TitleSectionProps {
+  id: string;
   img: string;
   alt: string;
   titleSection: string;
