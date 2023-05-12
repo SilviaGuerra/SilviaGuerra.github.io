@@ -12,8 +12,20 @@
   color: $color-texto;
 }
 
+a {
+  color: #00000073 !important;
+}
+
+a:hover {
+  color: $color-aux !important;
+}
+
 h1 {
   font-size: 40px;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 .textmedium {

@@ -161,9 +161,6 @@ const Body = () => {
         </Col>
         <Col sm={24} md={12}>
           <p className="textmedium aboutMe-presentation">
-            {/* Me llamo Silvia, soy desarrolladora front-end por Laboratoria
-            México. Suelo ser un poco dispersa y curiosa. Me gusta crear cosas.
-            Buscadora de conocimiento nuevo y experiencias. */}
             Me llamo Silvia, soy un apasionada frontend developer con amplia
             experiencia en el desarrollo de aplicaciones web utilizando
             tecnologías como HTML, CSS y JavaScript.
@@ -179,7 +176,9 @@ const Body = () => {
           </p>
         </Col>
       </Row>
-      <h3>Me gusta:</h3>
+      <Row className="aboutMe-subtitle">
+        <h3>Me gusta:</h3>
+      </Row>
       <Row>
         <Col sm={24} md={12}>
           <a
@@ -248,9 +247,9 @@ const Body = () => {
       />
       <section className="contact-container">
         <Row>
-          <Col sm={24} md={12}>
+          <Col sm={24} md={12} className="contact-col">
             <img src={Mail} alt="mail" width="20" />
-            <span className="link-amarillo">silvia.guerrahdz@gmail.com</span>
+            <span className="contact-mail">silvia.guerrahdz@gmail.com</span>
           </Col>
           <Col sm={24} md={12}>
             <p>

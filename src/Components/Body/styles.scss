@@ -32,7 +32,10 @@
   &-presentation {
     text-align: justify;
     line-height: 30px;
-    padding-right: 10%;
+    padding: 0 10%;
+  }
+  &-subtitle {
+    padding: 0 10%;
   }
 }
 
@@ -42,6 +45,15 @@
     height: 100px;
     background-color: $color-primary;
     margin-top: 10px;
+    padding-top: 3%;
+  }
+  &-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-mail {
+    padding-left: 12px;
   }
 }
 
