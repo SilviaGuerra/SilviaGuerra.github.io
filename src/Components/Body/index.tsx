@@ -130,15 +130,21 @@ const Body = () => {
       <Row className="projects-container">
         <Col sm={24} md={8}>
           <img src={Window} alt="Creación de páginas" width={"30%"} />
-          <p>Creación de páginas web responsive y uso de frameworks</p>
+          <p className="textmedium services-description">
+            Creación de páginas web responsive y uso de frameworks
+          </p>
         </Col>
         <Col sm={24} md={8}>
           <img src={Puzzle} alt="Consumo API" width={"30%"} />
-          <p>Consumo de API para mostrar información</p>
+          <p className="textmedium services-description">
+            Consumo de API para mostrar información
+          </p>
         </Col>
         <Col sm={24} md={8}>
           <img src={Rocket} alt="Herramientas para páginas web" width={"30%"} />
-          <p>JavaScript, React, Redux, Typescript para páginas web</p>
+          <p className="textmedium services-description">
+            JavaScript, React, Redux, Typescript para páginas web
+          </p>
         </Col>
       </Row>
 
@@ -154,10 +160,22 @@ const Body = () => {
           <img src={SilviaG} alt="Foto Silvia Guerra" className="aboutMe-img" />
         </Col>
         <Col sm={24} md={12}>
-          <p>
-            Me llamo Silvia, soy desarrolladora front-end por Laboratoria
+          <p className="textmedium aboutMe-presentation">
+            {/* Me llamo Silvia, soy desarrolladora front-end por Laboratoria
             México. Suelo ser un poco dispersa y curiosa. Me gusta crear cosas.
-            Buscadora de conocimiento nuevo y experiencias.
+            Buscadora de conocimiento nuevo y experiencias. */}
+            Me llamo Silvia, soy un apasionada frontend developer con amplia
+            experiencia en el desarrollo de aplicaciones web utilizando
+            tecnologías como HTML, CSS y JavaScript.
+          </p>
+          <p className="textmedium aboutMe-presentation">
+            Mi especialización se centra en la utilización del framework React
+            para crear interfaces de usuario atractivas y dinámicas.
+          </p>
+          <p className="textmedium aboutMe-presentation">
+            Suelo ser un poco dispersa y curiosa pero también una apasionada por
+            el aprendizaje constante y siempre estoy buscando maneras de mejorar
+            mis habilidades técnicas.
           </p>
         </Col>
       </Row>
