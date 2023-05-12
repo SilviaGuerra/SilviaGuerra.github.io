@@ -39,7 +39,7 @@ const Body = () => {
         <h5>Desarrolladora Front-End</h5>
         <Button type="primary">
           <a
-            href="../assets/SilviaGuerra-Front.pdf"
+            href="silviaguerrafront.pdf"
             target="_blank"
             rel="noopener noreferrer"
             download="SilviaGuerra-Front.pdf"
