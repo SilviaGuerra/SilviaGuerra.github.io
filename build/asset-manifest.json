@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.37b0146c.css",
-    "main.js": "/static/js/main.df901b2f.js",
+    "main.js": "/static/js/main.142f018d.js",
     "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
     "static/media/aliis-sinisalu.jpg": "/static/media/aliis-sinisalu.25e8701524005f4cde42.jpg",
     "static/media/sai-kiran-anagani.jpg": "/static/media/sai-kiran-anagani.7fbac660f337891c80b9.jpg",
@@ -29,11 +29,11 @@
     "static/media/star.svg": "/static/media/star.947cb42150401f20e1e48bb0dd942e52.svg",
     "index.html": "/index.html",
     "main.37b0146c.css.map": "/static/css/main.37b0146c.css.map",
-    "main.df901b2f.js.map": "/static/js/main.df901b2f.js.map",
+    "main.142f018d.js.map": "/static/js/main.142f018d.js.map",
     "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37b0146c.css",
-    "static/js/main.df901b2f.js"
+    "static/js/main.142f018d.js"
   ]
 }

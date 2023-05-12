@@ -42,7 +42,7 @@ const Body = () => {
             href="silviaguerrafront.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            download="SilviaGuerra-Front.pdf"
+            download="silviaguerrafront.pdf"
           >
             Descarga CV
           </a>
