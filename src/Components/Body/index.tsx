@@ -170,9 +170,8 @@ const Body = () => {
             para crear interfaces de usuario atractivas y dinámicas.
           </p>
           <p className="textmedium aboutMe-presentation">
-            Suelo ser un poco dispersa y curiosa pero también una apasionada por
-            el aprendizaje constante y siempre estoy buscando maneras de mejorar
-            mis habilidades técnicas.
+            Soy una apasionada por el aprendizaje constante y siempre estoy
+            buscando maneras de mejorar mis habilidades técnicas.
           </p>
         </Col>
       </Row>
