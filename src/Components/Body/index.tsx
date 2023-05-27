@@ -13,6 +13,9 @@ import Anay3 from "../assets/img/Anay-3.jpg";
 import Davivienda1 from "../assets/img/Davivienda1.png";
 import Davivienda2 from "../assets/img/Davivienda2.png";
 import Cityparking from "../assets/img/Cityparking.png";
+import MeLi1 from "../assets/img/MeLi1.png";
+import MeLi2 from "../assets/img/MeLi2.png";
+import MeLi3 from "../assets/img/MeLi3.png";
 import SilviaG from "../assets/img/SilviaG.jpg";
 import Codear from "../assets/img/sai-kiran-anagani.jpg";
 import Cantar from "../assets/img/coro.jpg";
@@ -73,7 +76,7 @@ const Body = () => {
         id="proyectos"
       />
       <Row className="projects-container">
-        <Col sm={24} md={6}>
+        <Col sm={24} md={12}>
           <CardProject
             alt="Data lab imágenes"
             img={[Datalab1, Datalab2]}
@@ -82,15 +85,24 @@ const Body = () => {
             link="https://www.datalabmx.com/"
           />
         </Col>
-        <Col sm={24} md={6}>
-          <CardProject
-            alt="Anay imágenes"
-            img={[Anay1, Anay2, Anay3]}
-            titleCard="Anay"
-            descriptionCard="Herramienta interna de Yana que se usa para crear y simular una conversación del bot. Importar y exportar las conversaciones creadas"
-          />
+        <Col sm={24} md={12}>
+          <a
+            href="https://ml-silviag.netlify.app/"
+            target="_blank"
+            rel="nooppener noreferrer"
+          >
+            <CardProject
+              alt="Mercado libre imagen muestra"
+              img={[MeLi1, MeLi2, MeLi3]}
+              titleCard="Mercado Libre"
+              descriptionCard="El pasado abril tuve la oportunidad de hacer una prueba técnica para MeLi.
+              La realicé con React, Redux, Bootstrap y Express."
+            />
+          </a>
         </Col>
-        <Col sm={24} md={6}>
+      </Row>
+      <Row className="projects-container">
+        <Col sm={24} md={8}>
           <a
             href="https://portalpagos.davivienda.com/#/"
             target="_blank"
@@ -104,7 +116,7 @@ const Body = () => {
             />
           </a>
         </Col>
-        <Col sm={24} md={6}>
+        <Col sm={24} md={8}>
           <a
             href="https://cityparking.paymentez.com/"
             target="_blank"
@@ -117,6 +129,14 @@ const Body = () => {
               descriptionCard="Sitio para el pago de servicio de servicios urbanos en Colombia https://city-parking.com/"
             />
           </a>
+        </Col>
+        <Col sm={24} md={8}>
+          <CardProject
+            alt="Anay imágenes"
+            img={[Anay1, Anay2, Anay3]}
+            titleCard="Anay"
+            descriptionCard="Herramienta interna de Yana que se usa para crear y simular una conversación del bot. Importar y exportar las conversaciones creadas"
+          />
         </Col>
       </Row>
 

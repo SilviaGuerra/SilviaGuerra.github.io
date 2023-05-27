@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.37b0146c.css",
-    "main.js": "/static/js/main.43374beb.js",
+    "main.js": "/static/js/main.00c6e86a.js",
     "static/js/787.ae0d8d37.chunk.js": "/static/js/787.ae0d8d37.chunk.js",
     "static/media/aliis-sinisalu.jpg": "/static/media/aliis-sinisalu.25e8701524005f4cde42.jpg",
+    "static/media/MeLi3.png": "/static/media/MeLi3.e1255de02607151013a5.png",
     "static/media/sai-kiran-anagani.jpg": "/static/media/sai-kiran-anagani.7fbac660f337891c80b9.jpg",
+    "static/media/MeLi2.png": "/static/media/MeLi2.8fb784bfb8421af62a0c.png",
     "static/media/aaron-burden.jpg": "/static/media/aaron-burden.589e01dcecc5d936d61e.jpg",
     "static/media/Davivienda1.png": "/static/media/Davivienda1.84996264427cc8168ebe.png",
     "static/media/Datalab-2.png": "/static/media/Datalab-2.5ba88b90705f4dcacfe5.png",
+    "static/media/MeLi1.png": "/static/media/MeLi1.7f5fc7f24c89447dfc8b.png",
     "static/media/SilviaG.jpg": "/static/media/SilviaG.505f8aa57ec85303453c.jpg",
     "static/media/Davivienda2.png": "/static/media/Davivienda2.e235c69165f1ac48f927.png",
     "static/media/Anay-1.jpg": "/static/media/Anay-1.e46d451b237492f8f71c.jpg",
@@ -29,11 +32,11 @@
     "static/media/star.svg": "/static/media/star.947cb42150401f20e1e48bb0dd942e52.svg",
     "index.html": "/index.html",
     "main.37b0146c.css.map": "/static/css/main.37b0146c.css.map",
-    "main.43374beb.js.map": "/static/js/main.43374beb.js.map",
+    "main.00c6e86a.js.map": "/static/js/main.00c6e86a.js.map",
     "787.ae0d8d37.chunk.js.map": "/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37b0146c.css",
-    "static/js/main.43374beb.js"
+    "static/js/main.00c6e86a.js"
   ]
 }
