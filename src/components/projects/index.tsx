@@ -1,4 +1,3 @@
-import SilviaG from "../../assets/img/SilviaG.jpg";
 import CardProject from "./cardProject";
 import Datalab1 from "../../assets/img/Datalab.png";
 import Datalab2 from "../../assets/img/Datalab-2.png";

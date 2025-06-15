@@ -1,4 +1,3 @@
-import SilviaG from "../../../assets/img/SilviaG.jpg";
 import { Carousel } from "flowbite-react";
 
 interface CardProjectProps {
