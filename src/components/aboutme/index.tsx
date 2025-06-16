@@ -30,33 +30,55 @@ const softSkills = [
 
 const interests = [
   {
+    icon: <MicVocal className="w-5 h-5" />,
+    title: "Canto",
+    description:
+      "Me gusta cantar, aunque sea quedito. Formé parte del coro de la Facultad de Ingeniería de 2013 al 2018. Interpretando obras como la 9a sinfonía de Beethoven, Stabat Mater de Dvorak, entre otras. Con presentaciones en la sala Nezahualcóyotl, Auditorio Nacional, el museo del Carmen y Bellas Artes, entre otros.",
+  },
+  {
     icon: <Music className="w-5 h-5" />,
     title: "Orquesta Sinfónica de Minería",
     description:
-      "Soy parte de la orquesta desde el 2019 como subtituladora de obras en inglés, alemán, francés, italiano, ruso y latín.",
-  },
-  {
-    icon: <MicVocal className="w-5 h-5" />,
-    title: "Canto",
-    description: "Me gusta cantar, aunque sea quedito",
+      "Soy parte de la orquesta desde el 2019 como subtituladora de obras en inglés, alemán, francés, italiano, ruso y latín; con presentaciones en el Auditorio Nacional, sala Nezahualcóyotl, diferentes auditorios de facultades y escuelas, así como en otros estados. Además, resolviendo problemas técnicos en vivo que se presentan como parte del concierto en si.",
   },
   {
     icon: <BookOpen className="w-5 h-5" />,
     title: "Lectura",
     description:
-      "Disfruto sumergirme en buenos libros que me alejen un poco de la realidad",
+      "Disfruto sumergirme en buenos libros que me alejen un poco de la realidad. Mi libro favorito por el momento es 'Ella y su gato' de Naruki Nagakawa y Makoto Shinkai.",
   },
   {
     icon: <PenTool className="w-5 h-5" />,
     title: "Escritura",
-    description:
-      "Tengo un blog que me ayuda a desahogar ideas y plasmarlas en textos",
+    description: (
+      <>
+        Tengo un{" "}
+        <a
+          href="https://voyadefraudar.blogspot.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-secondary font-semibold hover:underline"
+        >
+          blog
+        </a>{" "}
+        que me ayuda a desahogar ideas y plasmarlas en diversos textos. Hace
+        tiempo también publicaba textos en{" "}
+        <a
+          href="https://medium.com/@silvia.guerrahdz"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-secondary font-semibold hover:underline"
+        >
+          Medium.
+        </a>
+      </>
+    ),
   },
   {
     icon: <Cat className="w-5 h-5" />,
     title: "Gatos",
     description:
-      "Tengo 14 gatos y 2 perritas, no estoy segura si son de apoyo emocional o el mayor caos de mi vida",
+      "Tengo 14 gatos y 2 perritas, no estoy segura si son de apoyo emocional o el mayor caos de mi vida. Todos son rescatados de la calle.",
   },
 ];
 
@@ -111,7 +133,6 @@ const AboutMe = () => {
         <div className="md:w-1/2">
           <h5 className="text-secondary">Skills blandos</h5>
           <div className="flex flex-wrap gap-2 my-3">
-            {/* <Badge color="pink" size="sm" style={{ color: "white" }}> */}
             {softSkills.map((skill) => (
               <Badge
                 color="pink"
