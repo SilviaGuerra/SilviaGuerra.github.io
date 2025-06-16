@@ -77,14 +77,6 @@ const Projects = () => {
             titleCard={"Finverommerce"}
             link="https://finverommerce.netlify.app/"
           />
-          {/* <CardProject
-            alt={"titulaje"}
-            descriptionCard={
-              "Desde el 2019, formo parte de la Orquesta Sinfónica de Minería como subtituladora de obras en inglés, alemán, francés, italiano, ruso y latín."
-            }
-            img={[SilviaG]}
-            titleCard={"Subtítulos"}
-          /> */}
         </div>
       </section>
     </>

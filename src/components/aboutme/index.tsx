@@ -99,7 +99,10 @@ const AboutMe = () => {
           <h3 className="text-secondary block">Skills técnicos</h3>
           <div className="flex flex-wrap gap-2 my-3">
             {technicalSkills.map((skill) => (
-              <Badge color="pink" className="cursor-pointer">
+              <Badge
+                color="pink"
+                className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              >
                 {skill}
               </Badge>
             ))}
@@ -110,7 +113,10 @@ const AboutMe = () => {
           <div className="flex flex-wrap gap-2 my-3">
             {/* <Badge color="pink" size="sm" style={{ color: "white" }}> */}
             {softSkills.map((skill) => (
-              <Badge color="pink" className="cursor-pointer">
+              <Badge
+                color="pink"
+                className="cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+              >
                 {skill}
               </Badge>
             ))}

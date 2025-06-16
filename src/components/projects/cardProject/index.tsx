@@ -28,7 +28,7 @@ const CardProject = (props: CardProjectProps) => {
         href={props.link}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100"
+        className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
       >
         {imgCarousel(props)}
         <div className="flex flex-col justify-between p-4 mb-4 leading-normal">
